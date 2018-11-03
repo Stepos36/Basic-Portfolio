@@ -97,10 +97,8 @@ h3 {
 .placeholder {
     width: 300px;
     height:225px;
-    border: #cccccc 2px solid;
-    padding:2px;
 }
-.placeholder:hover {
+placeholder:hover {
     width: 300px;
     height:225px;
     border: #666666 2px solid;
@@ -137,7 +135,7 @@ footer {
 .link3 {
     float: left;
     width:300px;
-    height:250px;
+    height:225px;
     margin-left: 9%;
     margin-right: 9%;
     margin-top:3%;
@@ -146,6 +144,10 @@ footer {
     font-size: 22px;
     font-weight: 600;
     position:relative;
+    border: #dddddd 2px solid;
+}
+.link3:hover {
+    border: #666666 2px solid;
 }
 .clear {
     clear:both
@@ -191,24 +193,10 @@ footer {
 }
 .project-name {
     position: absolute;
-    width:264px;
+    width:260px;
     height:40px;
     background-color: #4aaaa5;
     padding: 20px;
-    bottom: 40px;
-    border-right: #cccccc 2px solid;
-    border-left: #cccccc 2px solid;
-    color:#FFFFFF
-
-}
-.project-name:hover {
-    position: absolute;
-    width:264px;
-    height:40px;
-    background-color: #4aaaa5;
-    padding: 20px;
-    bottom: 40px;
-    border-right: #666666 2px solid;
-    border-left: #666666 2px solid;
+    bottom: 10px;
     color:#FFFFFF
 }
