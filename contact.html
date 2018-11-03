@@ -19,21 +19,22 @@
                 <a href="contact.html" class="this-page">Contact</a>
             </div>
     </nav>
-    <form class="container">
+    <section class="container">
         <div id="form-fields">
         <h2>Contact</h2>
         <table class="horizontal"></table>
         <h3>Name</h3>
-            <input id="input-name">
+            <input type="text" id="input-name" placeholder="Your Name">
         <h3>Email</h3>
-            <input id="input-email">
+            <input type="text" id="input-email" placeholder="youremail@google.com">
         <h3>Message</h3>
-            <input id="input-message">
-        </div>
-        <input type="submit" class="button" value="Send" id="input-send">
-    </form>
+            <textarea type="text" id="input-message" placeholder="Type here...">
+            </textarea>
+        <input type="submit" class="button" value="Submit" id="input-send">
+    </section>
+    <div id="push"></div>
     <footer>
-        Copyright &copy; 2018
+        <div id="footer-text">Copyright &copy; 2018</div>
     </footer>
 </body>
 </html>
